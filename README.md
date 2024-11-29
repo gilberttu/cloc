@@ -439,6 +439,10 @@ executable and also check sites such
 https://www.virustotal.com/ .
 The entries for recent versions are:
 
+cloc-2.02-winget.exe:  (includes [PR 850](https://github.com/AlDanial/cloc/pull/850) to allow
+[running from a symlink on Windows](https://github.com/AlDanial/cloc/issues/849))
+https://www.virustotal.com/gui/file/be033061e091fea48a5bc9e8964cee0416ddd5b34bd5226a1c9aa4b30bdba66a?nocache=1
+
 cloc-2.02.exe:
 https://www.virustotal.com/gui/file/369ed76125f7399cd582d169adf39a2e08ae5066031fea0cc8b2836ea50e7ce2?nocache=1
 
@@ -1449,7 +1453,7 @@ A more detailed description:
     associates with programming languages (see the `--show-lang` and
     `--show-ext` options). Files which match are classified as
     containing source
-    code for that language. Each file without an extensions is opened
+    code for that language. Each file without an extension is opened
     and its first line read to see if it is a Unix shell script
     (anything that begins with #!). If it is shell script, the file is
     classified by that scripting language (if the language is
@@ -1893,7 +1897,7 @@ seeing line counts by project, not just by language.
 Say you manage three software projects called MariaDB, PostgreSQL, and SQLite.
 The teams responsible for each of these projects run cloc on their
 source code and provide you with the output.
-For example MariaDB team does
+For example, the MariaDB team does
 
 <pre>cloc --out mariadb-10.1.txt mariadb-server-10.1.zip</pre>
 
@@ -2857,7 +2861,7 @@ If you run cloc with ``--help``, cloc will tell you
 where it expects to find this config file file.  The information
 appears by the explanation of the ``--config`` switch after
 the text ``the default location of``.
-On Unix-like operating systems, this can be simplifed to
+On Unix-like operating systems, this can be simplified to
 
 <pre>
 &gt; cloc --help | grep "default location"
@@ -3212,5 +3216,5 @@ Corporation.
 [](1}}})
 <a name="Copyright"></a> []({{{1)
 #   [Copyright &#9650;](#___top "click to go to top of document")
-Copyright (c) 2006-2018, [Al Danial](https://github.com/AlDanial)
+Copyright (c) 2006-2024, [Al Danial](https://github.com/AlDanial)
 [](1}}})

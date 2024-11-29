@@ -225,6 +225,11 @@ my @Tests = (
                     'args' => '../tests/inputs/C++-uppercase.CPP',
                 },
                 {
+                    'name' => 'Cadence',
+                    'ref'  => '../tests/outputs/cadence_test.cdc.yaml',
+                    'args' => '../tests/inputs/cadence_test.cdc',
+                },
+                {
                     'name' => 'Carbon',
                     'ref'  => '../tests/outputs/variable_length.carbon.yaml',
                     'args' => '../tests/inputs/variable_length.carbon',
@@ -867,6 +872,11 @@ my @Tests = (
                     'args' => '../tests/inputs/sdp_parser.peggy',
                 },
                 {
+                    'name' => 'Pek',
+                    'ref'  => '../tests/outputs/pek_example.pek.yaml',
+                    'args' => '../tests/inputs/pek_example.pek',
+                },
+                {
                     'name' => 'Pest',
                     'ref'  => '../tests/outputs/toml.pest.yaml',
                     'args' => '../tests/inputs/toml.pest',
@@ -1360,6 +1370,11 @@ my @Tests = (
                     'name' => 'XML',
                     'ref'  => '../tests/outputs/XML.xml.yaml',
                     'args' => '../tests/inputs/XML.xml',
+                },
+                {
+                    'name' => 'XML (Qt/GTK)',
+                    'ref'  => '../tests/outputs/BoxWidget.ui.yaml',
+                    'args' => '../tests/inputs/BoxWidget.ui',
                 },
                 {
                     'name' => 'XQuery',
